@@ -1,6 +1,12 @@
 public class Sorter {
     public static void main(String[] args) {
-
+        int [] arr = new int[5];
+        arr[0]=2;
+        arr[1]=122;
+        arr[2]=62;
+        arr[3]=102;
+        arr[4]=82;
+        selectionSort(arr);
     }
 
     static void selectionSort(int arr[])
