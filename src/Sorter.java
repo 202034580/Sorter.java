@@ -26,13 +26,17 @@ public class Sorter {
         for(int i:arr1){    
             System.out.print(i+" ");    
         }    
+        System.out.println("");
         int [] arr = new int[5];
         arr[0]=2;
         arr[1]=122;
         arr[2]=62;
         arr[3]=102;
         arr[4]=82;
+        System.out.println("selectionSort");
         selectionSort(arr);
+        for(int i:arr){    
+            System.out.print(i+" ");  }
     }
 
     static void selectionSort(int arr[])
